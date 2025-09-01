@@ -1,0 +1,52 @@
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: #f6f7fb; }
+
+/* Centrado de la tarjeta */
+.page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f6f7fb;
+}
+
+/* Tarjeta */
+.card {
+  width: 100%;
+  max-width: 560px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Título dentro de la tarjeta */
+.heading {
+  text-align: center;
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Lista y resto */
+.list { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 8px; }
+.muted { opacity: .6; text-align: center; }
+.form { display: flex; gap: 8px; }
+.input { flex: 1; padding: 10px 12px; border-radius: 10px; border: 1px solid #e1e4ea; outline: none; }
+.btn { padding: 6px 10px; border-radius: 8px; border: 1px solid #d2d7e0; background: #fff; cursor: pointer; }
+.btn.primary, .btn-primary { padding: 10px 12px; border: 1px solid #2b6ef3; background: #2b6ef3; color: #fff; }
+.btn.danger { border-color:#ee8888; background:#ffecec; color:#9b1c1c; }
+.btn.ghost { border-color: transparent; background: transparent; }
+.item { display: flex; align-items: center; gap: 8px; padding: 10px; border: 1px solid #eef1f5; border-radius: 10px; background: #fafbff; }
+.title { margin-left: 8px; flex: 1; }
+.title.done { text-decoration: line-through; opacity: .65; }
