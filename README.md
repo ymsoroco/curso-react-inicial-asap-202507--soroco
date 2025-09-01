@@ -29,4 +29,5 @@ Además, las tareas se guardan en **LocalStorage**, así que aunque recargues la
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/usuario/evaluacion-react.git
+   git clone https://github.com/ymsoroco/curso-react-inicial-asap-202507--soroco.git
+
